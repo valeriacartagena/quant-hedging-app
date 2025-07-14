@@ -28,7 +28,12 @@ def _convert_to_json_serializable(obj):
     else:
         return obj
 
+<<<<<<< HEAD
 # Note: streamlit_extras.stylable_container import removed for Streamlit Cloud compatibility
+=======
+# Import streamlit extras for stylable containers
+from streamlit_extras.stylable_container import stylable_container
+>>>>>>> 763b91d8231b184af2d03662b5c277ba915f68a1
 
 # Import our data pipeline
 from data_collector import fetch_wti_futures, fetch_brent_futures, fetch_usd_index, collect_all_data

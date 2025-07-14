@@ -10,4 +10,7 @@ arch>=6.0.0
 yfinance>=0.2.0
 requests>=2.28.0
 scipy>=1.9.0
+<<<<<<< HEAD
 streamlit-calendar>=0.1.0
+=======
+>>>>>>> 763b91d8231b184af2d03662b5c277ba915f68a1
