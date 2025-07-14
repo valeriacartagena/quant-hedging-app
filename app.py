@@ -797,11 +797,14 @@ class OilDataVisualizer:
             plot_bgcolor='#fbfcf8',  # Clean background
             paper_bgcolor='#fbfcf8',
             font=dict(color='#000000'),  # Black text
-            xaxis=dict(color='#000', tickfont=dict(color='#000'), title=dict(font=dict(color='#000'))),
-            yaxis=dict(color='#000', tickfont=dict(color='#000'), title=dict(font=dict(color='#000'))),
             legend_font_color='#000'
         )
-        
+        # Set all subplot axes font color to black
+        for i in range(1, n_rows * n_cols + 1):
+            fig.update_layout({
+                f'xaxis{i}': dict(color='#000', tickfont=dict(color='#000'), title=dict(font=dict(color='#000'))),
+                f'yaxis{i}': dict(color='#000', tickfont=dict(color='#000'), title=dict(font=dict(color='#000')))
+            })
         return fig
     
     def create_spread_analysis(self, wti_data, brent_data):
@@ -977,7 +980,7 @@ def main():
     background-color: #fbfcf8;
     border-radius: 0.5rem;
 ">
-    <a href="https://github.com/valeriacartagena/optimized-quant-hedging" 
+    <a href="https://github.com/valeriacartagena/quant-hedging-app" 
        target="_blank" 
        style="
            display: inline-flex;
