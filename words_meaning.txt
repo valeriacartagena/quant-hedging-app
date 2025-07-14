@@ -1,0 +1,26 @@
+Ticker Symbols Explained:
+- CL=F - WTI Crude Oil Futures
+    CL = Crude Light (WTI crude oil)
+    =F = Futures contract (not spot price)
+    Full meaning: "Crude Light Futures" = WTI oil futures contract
+    Example: If you buy CL=F, you're buying the front-month WTI futures contract
+- BZ=F - Brent Crude Oil Futures
+    BZ = Brent (Brent crude oil from North Sea)
+    =F = Futures contract
+    Full meaning: "Brent Futures" = Brent crude oil futures contract
+    Example: If you buy BZ=F, you're buying the front-month Brent futures contract
+- DX-Y.NYB - US Dollar Index
+    DX = Dollar Index
+    Y = Currency (Yen, but here it means "Yahoo Finance")
+    .NYB = New York Board of Trade (where USD index trades)
+    Full meaning: "Dollar Index on Yahoo Finance from NYB"
+    Example: If you buy DX-Y.NYB, you're tracking the strength of the US dollar
+
+In this code:
+- CL=F = "Get me WTI oil futures prices"
+- BZ=F = "Get me Brent oil futures prices"
+- DX-Y.NYB = "Get me US dollar strength data"
+
+
+Benchmarks
+- WTI = West Texas Intermediate crude oil
