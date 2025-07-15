@@ -3945,5 +3945,30 @@ def main():
             for name, ticker in symbol_options.items():
                 st.write(f"- **{name}**: `{ticker}`")
 
+    # ... existing code at the end of main()
+    st.markdown(
+        '''
+        <style>
+        .copyright-footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100vw;
+            background: #fbfcf8;
+            color: #000;
+            text-align: center;
+            font-size: 1rem;
+            padding: 0.5rem 0;
+            z-index: 9999;
+            border-top: 1px solid #eee;
+        }
+        </style>
+        <div class="copyright-footer">
+            Copyright © 2025 Valeria Cartagena. All rights reserved
+        </div>
+        ''',
+        unsafe_allow_html=True
+    )
+
 if __name__ == "__main__":
     main()
