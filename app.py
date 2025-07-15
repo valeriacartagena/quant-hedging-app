@@ -906,7 +906,7 @@ def main():
             <li><strong>Select a Symbol:</strong> Choose from WTI Crude Oil, Brent Crude Oil, or USD Index.</li>
             <li><strong>Set Date Range:</strong> Pick your analysis period using the date selectors.</li>
             <li><strong>Load Data:</strong> Click "Load Data & Analyze" to fetch and process your data.</li>
-            <li><strong>Explore Results:</strong> View real-time analysis, technical indicators, and hedging insights. Keep scrolling down to test the ARIMA and GARCH models, calculate the dynamic hedge ratio and check other evaluations!</li>
+            <li><strong>Explore Results:</strong> View real-time analysis, technical indicators, and hedging insights. Keep scrolling down to test the <strong>ARIMA</strong> and <strong>GARCH models</strong>, calculate the dynamic hedge ratio and check other evaluations!</li>
         </ol>
         
     </div>
